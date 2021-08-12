@@ -1,0 +1,225 @@
+@media(max-width:768px){
+    .nav_link{
+        display: none;
+    }
+    .container{
+        width: 90%;
+    }
+    .nav_bar{
+        width: 30px;
+        height: 30px;
+        float: right;
+        display: block;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav_bar span{
+        width: 100%;
+        height: 3px;
+        background: white;
+        margin-top: 5px;
+        display: block;
+    }
+    .side_menu{
+        width: 70%;
+        height: 90vh;
+        position: fixed;
+        z-index: 200;
+        background: white;
+        display: block;
+        right: -70%;
+        transition: 0.5s;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }   
+     .menubar_active1{
+        transform: rotate(45deg);
+        transition: 0.5s;
+        position: relative;
+        top: 8px;
+    }
+    .menubar_active2{
+        transform: rotate(-45deg);
+        transition: 0.5s;
+        position: relative;
+        top: -8px;
+    }
+    .side_menu ul{
+        margin-top: 100px;
+    }
+    .side_menu ul li{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .side_menu ul li a{
+        padding: 10px 30px;
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .side_menu ul li button{
+        padding: 10px 30px;
+        text-decoration: none;
+        color: #464646;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        background: none;
+        outline: none;
+    }
+    .side_active{
+        color: rgb(70, 185, 70) !important;
+    }
+    .side_menu ul li button i{
+        font-size: 10px;
+    }
+    .dropdown-container {
+        display: none;
+        background: #f8f8f8;
+        padding: 10px;
+        width: 100%;
+      }
+      .dropdown-container p{
+          margin-top: 10px;
+        }
+      .dropdown-container p a{
+          font-size: 15px !important;
+          padding: 5px 0px !important; 
+        }
+
+    /* banner */
+  .banner_column h1{
+    font-size: 30px;
+    padding: 0px 20px;
+}
+
+    /* quotes */
+    .quotes{
+        padding: 20px 0px;
+    }
+  .quotes_container{
+      height: 100%;
+      flex-direction: column;
+  }
+  .quotes_container input{
+      border: none;
+      margin-right: 0px;
+      margin-top: 10px;
+      width: 100%;
+  }
+  .quotes_container button{
+      width: 300px;
+      margin-right: 0px;
+      margin-top: 10px;
+      width: 100%;
+  }
+
+  /* explore */
+  .explre_column{
+      margin: 0;
+  }
+  .explore a{
+      width: 100%;
+      text-align: center;
+  }
+  .explore_content{
+      bottom: 0;
+  }
+
+  /* get in tuch */
+  .getintuch{
+      flex-direction: column;
+  }
+  .get_column1{
+      width: 100%;
+      height: 100%;
+      border-right: none;
+      border-bottom: 4px solid rgb(70, 185, 70);
+  }
+  .get_column2{
+      width: 100%;
+      height: 100%;
+      border-left: none;
+      border-top: 4px solid rgb(70, 185, 70);
+  }
+
+  /* footer */
+  .footer_column{
+      width: 100%;
+  }
+  .fot_col2{
+      padding-left: 0px;
+      margin-top: 20px;
+  }
+  .fot_col3{
+    margin-top: 20px;
+  }
+
+  /* contact page */
+  .contact_setcion{
+      padding: 50px 0px;
+  }
+  .contact_column1{
+      width: 100%;
+      padding: 0px 10px;
+  }
+  .contact_column2{
+      width: 100%;
+      padding: 0px 10px;
+  }
+  .cotact_form{
+      width: 100%;
+      padding: 0;
+      margin-top: 20px;
+  }
+
+
+  /* service page */
+  .service_column{
+      flex: 100%;
+  }
+
+  /* tour package  */
+  .tour_package_column1{
+      width: 100%;
+  }
+  .tour_package_column2{
+      width: 100%;
+      margin-top: 20px;
+  }
+  .tour_package_content{
+      padding: 0px;
+  }
+  .tour_package_column3{
+    width: 100%;
+  }
+  .tour_package_column4{
+    width: 100%;
+  }
+  .tour_package_column3_image{
+      flex: 100%;
+  }
+
+  /* testimonial */
+  .testimonial_column{
+      flex: 100%;
+  }
+
+  /* main explore */
+  .main_explore_column{
+      flex: 0 0 48%;
+  }
+}
+
+@media(max-width:560px){
+    /* main explore */
+  .main_explore_column{
+    flex: 100%;
+}
+}
